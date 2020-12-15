@@ -12,10 +12,12 @@ pipeline
                 script 
                 {
 
-                    print  "I am alive!"
-                    print  "Hello from GIT"
-                    print  "Hello Vasili"
+                    print  "Hello Vasili"                    
 
+                }
+                sshagent(credentials : ['jenkins']) 
+                {
+                    sh 'ssh -o root@3.121.184.54 uptime'
                 }
             }
         }
