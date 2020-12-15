@@ -1,0 +1,23 @@
+pipeline 
+{
+
+    agent any
+
+    stages 
+    {
+        stage('Connection test') 
+        {
+            steps 
+            { 
+                script 
+                {
+
+                    print  "I am alive!"
+                    print  "Hello from GIT"
+                    print  "Hello Vasili"
+
+                }
+            }
+        }
+    }
+}
