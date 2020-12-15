@@ -13,7 +13,7 @@ pipeline
                 {
 
                     print  "Hello Vasili"                    
-                    sh 'ssh -o root@3.121.184.54 uptime'
+                    sh 'ssh root@3.121.184.54 uptime'
                 }                
             }
         }
