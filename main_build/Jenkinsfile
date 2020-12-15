@@ -13,7 +13,7 @@ pipeline
                 {
 
                     print  "Hello Vasili"                    
-                    sh 'ssh root@3.121.184.54 'apt-get install apache2'
+                    sh 'ssh root@3.121.184.54 apt-get install apache2'
                 }                
             }
         }
