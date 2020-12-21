@@ -13,8 +13,9 @@ pipeline
                 {
 
                     print  "Hello Vasili"                    
-                    sh 'ssh root@3.121.184.54 apt-get install apache2 -y'
-                    print  "Thank you for your job!!"  
+                    sh 'ssh root@18.184.13.169 apt-get install virtualbox -y && sudo apt update -y && curl -O https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.deb && sudo apt install ./vagrant_2.2.6_x86_64.deb -y'
+                    print  "vagrant Instaled!!"  
+                    
                     print  "Webhooks it's works!"  
                 }                
             }
