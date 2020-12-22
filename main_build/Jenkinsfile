@@ -13,7 +13,7 @@ pipeline
                 {
 
                     print  "Hello Vasili"                    
-                    sh 'ssh root@18.184.89.157 apt-get update -y'
+                    sh 'ssh root@192.168.9.117 apt-get update -y'
                     print  "vagrant Instaled!!"  
                     
                     print  "Webhooks it's works!"  
